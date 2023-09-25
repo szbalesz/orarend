@@ -1,92 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
 
 </head>
+
 <body>
+    <style>
+        td,th {
+            text-align: center;
+        }
+        tbody th{
+            font-size: 20px;
+        }
+        td div p {
+            font-size: 13px;
+            text-align: right;
+            margin-top: 3px;
+            font-weight: bold;
+            margin-bottom: -5px;
+        }
+    </style>
     <table class="table table-bordered">
         <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Hétfő</th>
-            <th scope="col">Kedd</th>
-            <th scope="col">Szerda</th>
-            <th scope="col">Csütörtök</th>
-            <th scope="col">Péntek</th>
-          </tr>
-        </thead>
-        <tbody>
             <tr>
-            <th scope="row">0</th>
-            <td>IKT projektmunka II.</td>
-            <td></td>
-            <td>Testnevelés</td>
-            <td>Matematika</td>
-            <td>Történelem</td>
+                <th scope="col">#</th>
+                <th scope="col">Hétfő</th>
+                <th scope="col">Kedd</th>
+                <th scope="col">Szerda</th>
+                <th scope="col">Csütörtök</th>
+                <th scope="col">Péntek</th>
             </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>IKT projektmunka II.</td>
-            <td>Webprogramozás</td>
-            <td>Testnevelés</td>
-            <td>Matematika</td>
-            <td>Angol nyelv</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>IKT projektmunka II.</td>
-            <td>Webprogramozás</td>
-            <td>Angol nyelv</td>
-            <td>Osztályfőnöki</td>
-            <td>Matematika</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Szakmai angol</td>
-            <td>Webprogramozás</td>
-            <td>Angol nyelv</td>
-            <td>Magyar nyelv és irodalom</td>
-            <td>Matematika</td>
-          </tr>
-          <tr>
-              <th scope="row">4</th>
-              <td>Szakmai angol</td>
-              <td>Asztali alkalmazások</td>
-              <td>Történelem</td>
-              <td>Magyar nyelv és irodalom</td>
-              <td>Magyar nyelv és irodalom</td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Adatbázis-kezelés I.</td>
-            <td>Asztali alkalmazások</td>
-            <td>Állampolgári ismeret</td>
-            <td>Angol nyelv</td>
-            <td>Testnevelés</td>
-        </tr>
-        <tr>
-            <th scope="row">6</th>
-            <td>Szoftvertesztelés</td>
-            <td>Asztali alkalmazások</td>
-            <td>Magyar nyelv és irodalom</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">7</th>
-            <td>Szoftvertesztelés</td>
-            <td></td>
-            <td>Matematika</td>
-            <td></td>
-            <td></td>
-        </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            <tr>
+                <th scope="row">0</th>
+                <td>IKT projektmunka II.<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">203</p>
+                        <p class=" col-9  "> Paár Norbert</p>
+                </td>
+                <td></td>
+                <td>Testnevelés<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">tornaterem</p>
+                        <p class=" col-9  "> Nagy Tibor</p>
+                </td>
+                <td>Matematika<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takácsné Menyhért Éva Judit</p>
+                </td>
+                <td>Történelem<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takács Gábor</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>IKT projektmunka II.<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">203</p>
+                        <p class=" col-9  "> Paár Norbert</p>
+                </td>
+                <td>Webprogramozás<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">203</p>
+                        <p class=" col-9  "> Németh Bence</p>
+                </td>
+                <td>Testnevelés<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">tornaterem</p>
+                        <p class=" col-9  "> Nagy Tibor</p>
+                </td>
+                <td>Matematika<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takácsné Menyhért Éva Judit</p>
+                </td>
+                <td>Angol nyelv<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">212</p>
+                        <p class=" col-9  "> Almásiné Jobbágy Nóra Katalin</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>IKT projektmunka II.<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">203</p>
+                        <p class=" col-9  "> Paár Norbert</p>
+                </td>
+                <td>Webprogramozás<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">203</p>
+                        <p class=" col-9  "> Németh Bence</p>
+                </td>
+                <td>Angol nyelv<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">212</p>
+                        <p class=" col-9  "> Almásiné Jobbágy Nóra Katalin</p>
+                </td>
+                <td>Osztályfőnöki<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takácsné Mehyhért Éva Judit Judit</p>
+                </td>
+                <td>Matematika<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takácsné Menyhért Éva</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Szakmai angol<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">212</p>
+                        <p class=" col-9  "> Almásiné Jobbágy Nóra Katalin</p>
+                </td>
+                <td>Webprogramozás<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">203</p>
+                        <p class=" col-9  "> Németh Bence</p>
+                </td>
+                <td>Angol nyelv<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">212</p>
+                        <p class=" col-9  "> Almásiné Jobbágy Nóra Katalin</p>
+                </td>
+                <td>Magyar nyelv és irodalom<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Szalma Anna Mária</p>
+                </td>
+                <td>Matematika<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takácsné Menyhért Éva Judit</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Szakmai angol<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">212</p>
+                        <p class=" col-9  "> Almásiné Jobbágy Nóra Katalin</p>
+                </td>
+                <td>Asztali alkalmazások<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">113</p>
+                        <p class=" col-9  "> Paár Norbert</p>
+                </td>
+                <td>Történelem<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takács Gábor</p>
+                </td>
+                <td>Magyar nyelv és irodalom<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Szalma Anna Mária</p>
+                </td>
+                <td>Magyar nyelv és irodalom<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Szalma Anna Mária</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Adatbázis-kezelés I.<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">301</p>
+                        <p class=" col-9  "> Takács István</p>
+                </td>
+                <td>Asztali alkalmazások<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">113</p>
+                        <p class=" col-9  "> Paár Norbert</p>
+                </td>
+                <td>Állampolgári ismeret<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takács Gábor</p>
+                </td>
+                <td>Angol nyelv<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">114</p>
+                        <p class=" col-9  ">Almásiné Jobbágy Nóra Katalin</p>
+                </td>
+                <td>Testnevelés<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">tornaterem</p>
+                        <p class=" col-9  "> Nagy Tibor</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Szoftvertesztelés<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">203</p>
+                        <p class=" col-9  "> Szilágyi Bertalan</p>
+                </td>
+                <td>Asztali alkalmazások<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">113</p>
+                        <p class=" col-9  "> Paár Norbert</p>
+                </td>
+                <td>Magyar nyelv és irodalom<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Szalma Anna Mária</p>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Szoftvertesztelés<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">203</p>
+                        <p class=" col-9  "> Szilágyi Bertalan</p>
+                </td>
+                <td></td>
+                <td>Matematika<br>
+                    <div class="row col-12">
+                        <p class=" col-3  ">103</p>
+                        <p class=" col-9  "> Takácsné Menyhért Éva Judit</p>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
         </tbody>
-      </table>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
